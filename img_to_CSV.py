@@ -16,7 +16,7 @@ def createFileList(myDir, format='.jpg'):
     return fileList
 
 # load the original image
-myFileList = createFileList('/path_to_directory_with_images/')
+myFileList = createFileList('./hot-dog-not-hot-dog/train/hot_dog')
 
 for file in myFileList:
     print(file)
